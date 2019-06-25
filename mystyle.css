@@ -1,0 +1,58 @@
+/* GENERIC CLASSES */
+body {
+	overflow-x: hidden;
+	background-color: orange;
+}
+
+h1 {
+	color: #ffc857;
+}
+
+h3 {
+	color: #119da4;
+	text-align: center;
+}
+
+p {
+	color: #ffc857;
+}
+
+/* CUSTOM CLASSES */
+.btn-info {
+	background-color: transparent;
+	color: #119da4;
+}
+
+.card {
+	border-color: #4b3f72;
+}
+
+.card-body {
+	background-color: #4b3f72;
+	color: #ffc857;
+	text-align: center;
+}
+
+.card-footer {
+	background-color: #4b3f72;
+}
+.col-purple {
+	background-color: #4b3f72
+}
+
+.jumbotron-purple {
+	background-color: #4b3f72;
+	margin-bottom: 0;
+	text-align: center;
+	width: 100%;	
+}
+
+.navbar-expand {
+	background-color: #4b3f72;
+}
+
+.nav-link {
+	color: #ffc857;
+}
+
+/* CUSTOM IDS */
