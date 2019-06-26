@@ -1,7 +1,11 @@
 /* GENERIC CLASSES */
+a:link {
+	text-decoration: none;
+}
+
 body {
 	overflow-x: hidden;
-	background-color: orange;
+	background-color: #4b3f72;
 }
 
 h1 {
@@ -23,8 +27,13 @@ p {
 	color: #119da4;
 }
 
+.btn-link:hover {
+	color: #ffc857;
+}
+
 .card {
 	border-color: #4b3f72;
+	background-color: transparent;
 }
 
 .card-body {
@@ -35,16 +44,35 @@ p {
 
 .card-footer {
 	background-color: #4b3f72;
+	border-color: #4b3f72;
+	text-align: center;
 }
+
 .col-purple {
 	background-color: #4b3f72
+}
+
+.contain-center {
+	display: flex;
+  	align-items: center;
+  	justify-content: center
 }
 
 .jumbotron-purple {
 	background-color: #4b3f72;
 	margin-bottom: 0;
 	text-align: center;
-	width: 100%;	
+	width: 100%;
+}
+
+.linker {
+	color: #ffc857;
+	font-size: 2em;
+}
+
+.linker:hover {
+	color: #ffc857;
+	text-decoration: underline;
 }
 
 .navbar-expand {
@@ -53,6 +81,15 @@ p {
 
 .nav-link {
 	color: #ffc857;
+}
+
+.nav-link:hover {
+	background-color: #119da4;
+	color: #ffc857;
+}
+
+.row {
+	margin-top: 0;
 }
 
 /* CUSTOM IDS */
